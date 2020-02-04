@@ -1,7 +1,7 @@
 import requests
 import json
 
-class Client(object):
+class TruSender(object):
     def __init__(self, auth_token):
         self.auth_token = auth_token
 
